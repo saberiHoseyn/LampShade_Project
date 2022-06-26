@@ -1,0 +1,12 @@
+D:\Hoseyn\Asp.NetCore5(atriya)\practices\10.LampShade_Project\Code\LampShade\0_Framework\bin\Debug\net5.0\0_Framework.deps.json
+D:\Hoseyn\Asp.NetCore5(atriya)\practices\10.LampShade_Project\Code\LampShade\0_Framework\bin\Debug\net5.0\0_Framework.dll
+D:\Hoseyn\Asp.NetCore5(atriya)\practices\10.LampShade_Project\Code\LampShade\0_Framework\bin\Debug\net5.0\ref\0_Framework.dll
+D:\Hoseyn\Asp.NetCore5(atriya)\practices\10.LampShade_Project\Code\LampShade\0_Framework\bin\Debug\net5.0\0_Framework.pdb
+D:\Hoseyn\Asp.NetCore5(atriya)\practices\10.LampShade_Project\Code\LampShade\0_Framework\obj\Debug\net5.0\0_Framework.GeneratedMSBuildEditorConfig.editorconfig
+D:\Hoseyn\Asp.NetCore5(atriya)\practices\10.LampShade_Project\Code\LampShade\0_Framework\obj\Debug\net5.0\0_Framework.AssemblyInfoInputs.cache
+D:\Hoseyn\Asp.NetCore5(atriya)\practices\10.LampShade_Project\Code\LampShade\0_Framework\obj\Debug\net5.0\0_Framework.AssemblyInfo.cs
+D:\Hoseyn\Asp.NetCore5(atriya)\practices\10.LampShade_Project\Code\LampShade\0_Framework\obj\Debug\net5.0\0_Framework.csproj.CoreCompileInputs.cache
+D:\Hoseyn\Asp.NetCore5(atriya)\practices\10.LampShade_Project\Code\LampShade\0_Framework\obj\Debug\net5.0\0_Framework.dll
+D:\Hoseyn\Asp.NetCore5(atriya)\practices\10.LampShade_Project\Code\LampShade\0_Framework\obj\Debug\net5.0\ref\0_Framework.dll
+D:\Hoseyn\Asp.NetCore5(atriya)\practices\10.LampShade_Project\Code\LampShade\0_Framework\obj\Debug\net5.0\0_Framework.pdb
+D:\Hoseyn\Asp.NetCore5(atriya)\practices\10.LampShade_Project\Code\LampShade\0_Framework\obj\Debug\net5.0\0_Framework.csproj.AssemblyReference.cache
