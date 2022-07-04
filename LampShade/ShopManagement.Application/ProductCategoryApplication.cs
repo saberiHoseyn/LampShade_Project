@@ -6,7 +6,7 @@ using System.Collections.Generic;
 
 namespace ShopManagement.Application
 {
-    public class ProductCategoryApplication : IProductCategoryApplication
+    public class ProductCategoryApplication : IProductPictureApplication
     {
         private readonly IProductCategoryRepository productCategoryRepository;
 
@@ -19,7 +19,7 @@ namespace ShopManagement.Application
         {
             var operation = new OperationResult();
             if (productCategoryRepository.Exists(x => x.Name == command.Name))
-                return operation.Failed("امکان ثبت رکورد تکراری وجود ندارد٬ لطفا مجددا تکلاش کنید.");
+                return operation.Failed(ApplicationMessages.DuplicatedRecord);
 
             var slug = command.Slug.Slugify();
             var productCategory = new ProductCategory(command.Name, command.Description, command.Picture,
@@ -34,10 +34,10 @@ namespace ShopManagement.Application
             var operation = new OperationResult();
             var productCategory = productCategoryRepository.Get(command.Id);
             if (productCategory == null)
-                return operation.Failed("رکوردی با اطلاعات درخواستی یافت نشد٬ لطفا مجددا تلاش فرمایید.");
+                return operation.Failed(ApplicationMessages.RecordNotFound);
 
             if (productCategoryRepository.Exists(x => x.Name == command.Name && x.Id != command.Id))
-                return operation.Failed("امکان ثبت رکورد تکراری وجود ندارد٬ لطفا مجددا تکلاش کنید.");
+                return operation.Failed(ApplicationMessages.DuplicatedRecord);
 
             var slug = command.Slug.Slugify();
             productCategory.Edite(command.Name, command.Description, command.Picture,
@@ -50,6 +50,11 @@ namespace ShopManagement.Application
         public EditProductCategory GetDetails(long id)
         {
             return productCategoryRepository.GetDetails(id);
+        }
+
+        public List<ProductCategoryViewModel> GetProductCategories()
+        {
+            return productCategoryRepository.GetProductCategories();
         }
 
         public List<ProductCategoryViewModel> Search(ProductCategorySearchModel searchModel)

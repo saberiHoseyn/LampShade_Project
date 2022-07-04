@@ -5,7 +5,7 @@ using System;
 
 namespace ShopManagement.Infrastructure.EFCore.Maping
 {
-    public class ProductCategoryMaping : IEntityTypeConfiguration<ProductCategory>
+    public class ProductCategoryMapping : IEntityTypeConfiguration<ProductCategory>
     {
         public void Configure(EntityTypeBuilder<ProductCategory> builder)
         {
@@ -20,6 +20,10 @@ namespace ShopManagement.Infrastructure.EFCore.Maping
             builder.Property(x => x.Keywords).HasMaxLength(80).IsRequired();
             builder.Property(x => x.MetaDescription).HasMaxLength(150).IsRequired();
             builder.Property(x => x.Slug).HasMaxLength(300).IsRequired();
+
+            builder.HasMany(x => x.Products)
+                .WithOne(x => x.Category)
+                .HasForeignKey(x => x.CategoryId);
         }
     }
 }

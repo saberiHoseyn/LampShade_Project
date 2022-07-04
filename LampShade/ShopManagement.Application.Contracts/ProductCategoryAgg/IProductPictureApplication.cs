@@ -3,11 +3,12 @@ using System.Collections.Generic;
 
 namespace ShopManagement.Application.Contracts.ProductCategoryAgg
 {
-    public interface IProductCategoryApplication
+    public interface IProductPictureApplication
     {
         OperationResult Create(CreateProductCategory command);
         OperationResult Edit(EditProductCategory command);
         EditProductCategory GetDetails(long id);
+        List<ProductCategoryViewModel> GetProductCategories();
         List<ProductCategoryViewModel> Search(ProductCategorySearchModel searchModel);
     }
 }

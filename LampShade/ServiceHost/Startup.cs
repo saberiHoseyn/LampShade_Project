@@ -24,7 +24,7 @@ namespace ServiceHost
         public void ConfigureServices(IServiceCollection services)
         {
             var connectionString = Configuration.GetConnectionString("LampeShadDb");
-            ProductCategoryBootstrapper.Configur(services, connectionString);
+            ShopManagementBootstrapper.Configur(services, connectionString);
 
             services.AddRazorPages();
         }
