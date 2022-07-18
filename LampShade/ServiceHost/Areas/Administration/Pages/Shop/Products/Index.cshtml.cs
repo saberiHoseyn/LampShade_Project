@@ -10,7 +10,7 @@ namespace ServiceHost.Areas.Administration.Pages.Shop.Products
     public class IndexModel : PageModel
     {
         [TempData]
-        public string Message { get; set; }
+        public string Message { get; set; }  
         public ProductSearchModel SearchModel;
         public List<ProductVeiwModel> Products;
         public SelectList ProductCategories;

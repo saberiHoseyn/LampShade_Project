@@ -8,5 +8,6 @@
         public string Title { get; set; }
         public bool IsRemove { get; set; }
         public string CreationDate { get; set; }
+        public string Link { get; set; }
     }
 }

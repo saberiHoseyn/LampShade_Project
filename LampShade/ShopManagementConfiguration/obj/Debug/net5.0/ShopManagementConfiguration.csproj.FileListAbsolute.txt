@@ -21,3 +21,5 @@ D:\Hoseyn\Asp.NetCore5(atriya)\practices\10.LampShade_Project\Code\LampShade\Sho
 D:\Hoseyn\Asp.NetCore5(atriya)\practices\10.LampShade_Project\Code\LampShade\ShopManagementConfiguration\obj\Debug\net5.0\ShopManagementConfiguration.dll
 D:\Hoseyn\Asp.NetCore5(atriya)\practices\10.LampShade_Project\Code\LampShade\ShopManagementConfiguration\obj\Debug\net5.0\ref\ShopManagementConfiguration.dll
 D:\Hoseyn\Asp.NetCore5(atriya)\practices\10.LampShade_Project\Code\LampShade\ShopManagementConfiguration\obj\Debug\net5.0\ShopManagementConfiguration.pdb
+D:\Hoseyn\Asp.NetCore5(atriya)\practices\10.LampShade_Project\Code\LampShade\ShopManagementConfiguration\bin\Debug\net5.0\01_LampShadeQuery.dll
+D:\Hoseyn\Asp.NetCore5(atriya)\practices\10.LampShade_Project\Code\LampShade\ShopManagementConfiguration\bin\Debug\net5.0\01_LampShadeQuery.pdb

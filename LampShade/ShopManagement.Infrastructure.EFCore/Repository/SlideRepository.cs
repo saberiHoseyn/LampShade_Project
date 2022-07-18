@@ -29,7 +29,8 @@ namespace ShopManagement.Infrastructure.EFCore.Repository
                 Heding = x.Heding,
                 Text = x.Text,
                 Title = x.Title,
-                BtnText = x.BtnText
+                BtnText = x.BtnText,
+                Link = x.Link
             }).FirstOrDefault(x => x.Id == id);
         }
 
@@ -42,6 +43,7 @@ namespace ShopManagement.Infrastructure.EFCore.Repository
                 Heding = x.Heding,
                 Title = x.Title,
                 IsRemove = x.IsRemove,
+                Link = x.Link,
                 CreationDate = x.CreationDate.ToString()
             }).OrderByDescending(x => x.Id).ToList();
         }

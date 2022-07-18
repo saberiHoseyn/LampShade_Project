@@ -151,6 +151,9 @@ namespace ShopManagement.Infrastructure.EFCore.Migrations
                     b.Property<bool>("IsRemove")
                         .HasColumnType("bit");
 
+                    b.Property<string>("Link")
+                        .HasColumnType("nvarchar(max)");
+
                     b.Property<string>("Picture")
                         .IsRequired()
                         .HasMaxLength(1000)
