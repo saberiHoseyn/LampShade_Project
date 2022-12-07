@@ -122,6 +122,408 @@
         }
       }
     },
+    "D:\\Hoseyn\\Asp.NetCore5(atriya)\\practices\\10.LampShade_Project\\Code\\LampShade\\DiscountManagement.Application.Contracts\\DiscountManagement.Application.Contracts.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Hoseyn\\Asp.NetCore5(atriya)\\practices\\10.LampShade_Project\\Code\\LampShade\\DiscountManagement.Application.Contracts\\DiscountManagement.Application.Contracts.csproj",
+        "projectName": "DiscountManagement.Application.Contracts",
+        "projectPath": "D:\\Hoseyn\\Asp.NetCore5(atriya)\\practices\\10.LampShade_Project\\Code\\LampShade\\DiscountManagement.Application.Contracts\\DiscountManagement.Application.Contracts.csproj",
+        "packagesPath": "C:\\Users\\samsung\\.nuget\\packages\\",
+        "outputPath": "D:\\Hoseyn\\Asp.NetCore5(atriya)\\practices\\10.LampShade_Project\\Code\\LampShade\\DiscountManagement.Application.Contracts\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\samsung\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "D:\\Hoseyn\\Asp.NetCore5(atriya)\\practices\\10.LampShade_Project\\Code\\LampShade\\0_Framework\\0_Framework.csproj": {
+                "projectPath": "D:\\Hoseyn\\Asp.NetCore5(atriya)\\practices\\10.LampShade_Project\\Code\\LampShade\\0_Framework\\0_Framework.csproj"
+              },
+              "D:\\Hoseyn\\Asp.NetCore5(atriya)\\practices\\10.LampShade_Project\\Code\\LampShade\\ShopManagement.Application.Contracts\\ShopManagement.Application.Contracts.csproj": {
+                "projectPath": "D:\\Hoseyn\\Asp.NetCore5(atriya)\\practices\\10.LampShade_Project\\Code\\LampShade\\ShopManagement.Application.Contracts\\ShopManagement.Application.Contracts.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Hoseyn\\Asp.NetCore5(atriya)\\practices\\10.LampShade_Project\\Code\\LampShade\\DiscountManagement.Application\\DiscountManagement.Application.Contracts.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Hoseyn\\Asp.NetCore5(atriya)\\practices\\10.LampShade_Project\\Code\\LampShade\\DiscountManagement.Application\\DiscountManagement.Application.Contracts.csproj",
+        "projectName": "DiscountManagement.Application.Contracts",
+        "projectPath": "D:\\Hoseyn\\Asp.NetCore5(atriya)\\practices\\10.LampShade_Project\\Code\\LampShade\\DiscountManagement.Application\\DiscountManagement.Application.Contracts.csproj",
+        "packagesPath": "C:\\Users\\samsung\\.nuget\\packages\\",
+        "outputPath": "D:\\Hoseyn\\Asp.NetCore5(atriya)\\practices\\10.LampShade_Project\\Code\\LampShade\\DiscountManagement.Application\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\samsung\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "D:\\Hoseyn\\Asp.NetCore5(atriya)\\practices\\10.LampShade_Project\\Code\\LampShade\\0_Framework\\0_Framework.csproj": {
+                "projectPath": "D:\\Hoseyn\\Asp.NetCore5(atriya)\\practices\\10.LampShade_Project\\Code\\LampShade\\0_Framework\\0_Framework.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Hoseyn\\Asp.NetCore5(atriya)\\practices\\10.LampShade_Project\\Code\\LampShade\\DiscountManagement.Application\\DiscountManagement.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Hoseyn\\Asp.NetCore5(atriya)\\practices\\10.LampShade_Project\\Code\\LampShade\\DiscountManagement.Application\\DiscountManagement.Application.csproj",
+        "projectName": "DiscountManagement.Application",
+        "projectPath": "D:\\Hoseyn\\Asp.NetCore5(atriya)\\practices\\10.LampShade_Project\\Code\\LampShade\\DiscountManagement.Application\\DiscountManagement.Application.csproj",
+        "packagesPath": "C:\\Users\\samsung\\.nuget\\packages\\",
+        "outputPath": "D:\\Hoseyn\\Asp.NetCore5(atriya)\\practices\\10.LampShade_Project\\Code\\LampShade\\DiscountManagement.Application\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\samsung\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "D:\\Hoseyn\\Asp.NetCore5(atriya)\\practices\\10.LampShade_Project\\Code\\LampShade\\0_Framework\\0_Framework.csproj": {
+                "projectPath": "D:\\Hoseyn\\Asp.NetCore5(atriya)\\practices\\10.LampShade_Project\\Code\\LampShade\\0_Framework\\0_Framework.csproj"
+              },
+              "D:\\Hoseyn\\Asp.NetCore5(atriya)\\practices\\10.LampShade_Project\\Code\\LampShade\\DiscountManagement.Application.Contracts\\DiscountManagement.Application.Contracts.csproj": {
+                "projectPath": "D:\\Hoseyn\\Asp.NetCore5(atriya)\\practices\\10.LampShade_Project\\Code\\LampShade\\DiscountManagement.Application.Contracts\\DiscountManagement.Application.Contracts.csproj"
+              },
+              "D:\\Hoseyn\\Asp.NetCore5(atriya)\\practices\\10.LampShade_Project\\Code\\LampShade\\DiscountManagement.Domain\\DiscountManagement.Domain.csproj": {
+                "projectPath": "D:\\Hoseyn\\Asp.NetCore5(atriya)\\practices\\10.LampShade_Project\\Code\\LampShade\\DiscountManagement.Domain\\DiscountManagement.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Hoseyn\\Asp.NetCore5(atriya)\\practices\\10.LampShade_Project\\Code\\LampShade\\DiscountManagement.Configuration\\DiscountManagement.Configuration.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Hoseyn\\Asp.NetCore5(atriya)\\practices\\10.LampShade_Project\\Code\\LampShade\\DiscountManagement.Configuration\\DiscountManagement.Configuration.csproj",
+        "projectName": "DiscountManagement.Configuration",
+        "projectPath": "D:\\Hoseyn\\Asp.NetCore5(atriya)\\practices\\10.LampShade_Project\\Code\\LampShade\\DiscountManagement.Configuration\\DiscountManagement.Configuration.csproj",
+        "packagesPath": "C:\\Users\\samsung\\.nuget\\packages\\",
+        "outputPath": "D:\\Hoseyn\\Asp.NetCore5(atriya)\\practices\\10.LampShade_Project\\Code\\LampShade\\DiscountManagement.Configuration\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\samsung\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "D:\\Hoseyn\\Asp.NetCore5(atriya)\\practices\\10.LampShade_Project\\Code\\LampShade\\DiscountManagement.Application.Contracts\\DiscountManagement.Application.Contracts.csproj": {
+                "projectPath": "D:\\Hoseyn\\Asp.NetCore5(atriya)\\practices\\10.LampShade_Project\\Code\\LampShade\\DiscountManagement.Application.Contracts\\DiscountManagement.Application.Contracts.csproj"
+              },
+              "D:\\Hoseyn\\Asp.NetCore5(atriya)\\practices\\10.LampShade_Project\\Code\\LampShade\\DiscountManagement.Application\\DiscountManagement.Application.csproj": {
+                "projectPath": "D:\\Hoseyn\\Asp.NetCore5(atriya)\\practices\\10.LampShade_Project\\Code\\LampShade\\DiscountManagement.Application\\DiscountManagement.Application.csproj"
+              },
+              "D:\\Hoseyn\\Asp.NetCore5(atriya)\\practices\\10.LampShade_Project\\Code\\LampShade\\DiscountManagement.Domain\\DiscountManagement.Domain.csproj": {
+                "projectPath": "D:\\Hoseyn\\Asp.NetCore5(atriya)\\practices\\10.LampShade_Project\\Code\\LampShade\\DiscountManagement.Domain\\DiscountManagement.Domain.csproj"
+              },
+              "D:\\Hoseyn\\Asp.NetCore5(atriya)\\practices\\10.LampShade_Project\\Code\\LampShade\\DiscountManagement.Infrastructure.EFCore\\DiscountManagement.Infrastructure.EFCore.csproj": {
+                "projectPath": "D:\\Hoseyn\\Asp.NetCore5(atriya)\\practices\\10.LampShade_Project\\Code\\LampShade\\DiscountManagement.Infrastructure.EFCore\\DiscountManagement.Infrastructure.EFCore.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.17, )"
+            },
+            "Microsoft.Extensions.DependencyInjection.Abstractions": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Hoseyn\\Asp.NetCore5(atriya)\\practices\\10.LampShade_Project\\Code\\LampShade\\DiscountManagement.Domain\\DiscountManagement.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Hoseyn\\Asp.NetCore5(atriya)\\practices\\10.LampShade_Project\\Code\\LampShade\\DiscountManagement.Domain\\DiscountManagement.Domain.csproj",
+        "projectName": "DiscountManagement.Domain",
+        "projectPath": "D:\\Hoseyn\\Asp.NetCore5(atriya)\\practices\\10.LampShade_Project\\Code\\LampShade\\DiscountManagement.Domain\\DiscountManagement.Domain.csproj",
+        "packagesPath": "C:\\Users\\samsung\\.nuget\\packages\\",
+        "outputPath": "D:\\Hoseyn\\Asp.NetCore5(atriya)\\practices\\10.LampShade_Project\\Code\\LampShade\\DiscountManagement.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\samsung\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "D:\\Hoseyn\\Asp.NetCore5(atriya)\\practices\\10.LampShade_Project\\Code\\LampShade\\0_Framework\\0_Framework.csproj": {
+                "projectPath": "D:\\Hoseyn\\Asp.NetCore5(atriya)\\practices\\10.LampShade_Project\\Code\\LampShade\\0_Framework\\0_Framework.csproj"
+              },
+              "D:\\Hoseyn\\Asp.NetCore5(atriya)\\practices\\10.LampShade_Project\\Code\\LampShade\\DiscountManagement.Application.Contracts\\DiscountManagement.Application.Contracts.csproj": {
+                "projectPath": "D:\\Hoseyn\\Asp.NetCore5(atriya)\\practices\\10.LampShade_Project\\Code\\LampShade\\DiscountManagement.Application.Contracts\\DiscountManagement.Application.Contracts.csproj"
+              },
+              "D:\\Hoseyn\\Asp.NetCore5(atriya)\\practices\\10.LampShade_Project\\Code\\LampShade\\DiscountManagement.Application\\DiscountManagement.Application.Contracts.csproj": {
+                "projectPath": "D:\\Hoseyn\\Asp.NetCore5(atriya)\\practices\\10.LampShade_Project\\Code\\LampShade\\DiscountManagement.Application\\DiscountManagement.Application.Contracts.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Hoseyn\\Asp.NetCore5(atriya)\\practices\\10.LampShade_Project\\Code\\LampShade\\DiscountManagement.Infrastructure.EFCore\\DiscountManagement.Infrastructure.EFCore.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Hoseyn\\Asp.NetCore5(atriya)\\practices\\10.LampShade_Project\\Code\\LampShade\\DiscountManagement.Infrastructure.EFCore\\DiscountManagement.Infrastructure.EFCore.csproj",
+        "projectName": "DiscountManagement.Infrastructure.EFCore",
+        "projectPath": "D:\\Hoseyn\\Asp.NetCore5(atriya)\\practices\\10.LampShade_Project\\Code\\LampShade\\DiscountManagement.Infrastructure.EFCore\\DiscountManagement.Infrastructure.EFCore.csproj",
+        "packagesPath": "C:\\Users\\samsung\\.nuget\\packages\\",
+        "outputPath": "D:\\Hoseyn\\Asp.NetCore5(atriya)\\practices\\10.LampShade_Project\\Code\\LampShade\\DiscountManagement.Infrastructure.EFCore\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\samsung\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "D:\\Hoseyn\\Asp.NetCore5(atriya)\\practices\\10.LampShade_Project\\Code\\LampShade\\DiscountManagement.Domain\\DiscountManagement.Domain.csproj": {
+                "projectPath": "D:\\Hoseyn\\Asp.NetCore5(atriya)\\practices\\10.LampShade_Project\\Code\\LampShade\\DiscountManagement.Domain\\DiscountManagement.Domain.csproj"
+              },
+              "D:\\Hoseyn\\Asp.NetCore5(atriya)\\practices\\10.LampShade_Project\\Code\\LampShade\\ShopManagement.Infrastructure.EFCore\\ShopManagement.Infrastructure.EFCore.csproj": {
+                "projectPath": "D:\\Hoseyn\\Asp.NetCore5(atriya)\\practices\\10.LampShade_Project\\Code\\LampShade\\ShopManagement.Infrastructure.EFCore\\ShopManagement.Infrastructure.EFCore.csproj"
+              },
+              "D:\\Hoseyn\\Asp.NetCore5(atriya)\\practices\\10.LampShade_Project\\Code\\LampShade\\ShopManagment.Domain\\ShopManagement.Domain.csproj": {
+                "projectPath": "D:\\Hoseyn\\Asp.NetCore5(atriya)\\practices\\10.LampShade_Project\\Code\\LampShade\\ShopManagment.Domain\\ShopManagement.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.17, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[5.0.17, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "target": "Package",
+              "version": "[5.0.17, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
     "D:\\Hoseyn\\Asp.NetCore5(atriya)\\practices\\10.LampShade_Project\\Code\\LampShade\\ServiceHost\\ServiceHost.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -146,6 +548,15 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
+              "D:\\Hoseyn\\Asp.NetCore5(atriya)\\practices\\10.LampShade_Project\\Code\\LampShade\\DiscountManagement.Application.Contracts\\DiscountManagement.Application.Contracts.csproj": {
+                "projectPath": "D:\\Hoseyn\\Asp.NetCore5(atriya)\\practices\\10.LampShade_Project\\Code\\LampShade\\DiscountManagement.Application.Contracts\\DiscountManagement.Application.Contracts.csproj"
+              },
+              "D:\\Hoseyn\\Asp.NetCore5(atriya)\\practices\\10.LampShade_Project\\Code\\LampShade\\DiscountManagement.Application\\DiscountManagement.Application.csproj": {
+                "projectPath": "D:\\Hoseyn\\Asp.NetCore5(atriya)\\practices\\10.LampShade_Project\\Code\\LampShade\\DiscountManagement.Application\\DiscountManagement.Application.csproj"
+              },
+              "D:\\Hoseyn\\Asp.NetCore5(atriya)\\practices\\10.LampShade_Project\\Code\\LampShade\\DiscountManagement.Configuration\\DiscountManagement.Configuration.csproj": {
+                "projectPath": "D:\\Hoseyn\\Asp.NetCore5(atriya)\\practices\\10.LampShade_Project\\Code\\LampShade\\DiscountManagement.Configuration\\DiscountManagement.Configuration.csproj"
+              },
               "D:\\Hoseyn\\Asp.NetCore5(atriya)\\practices\\10.LampShade_Project\\Code\\LampShade\\ShopManagementConfiguration\\ShopManagementConfiguration.csproj": {
                 "projectPath": "D:\\Hoseyn\\Asp.NetCore5(atriya)\\practices\\10.LampShade_Project\\Code\\LampShade\\ShopManagementConfiguration\\ShopManagementConfiguration.csproj"
               }
