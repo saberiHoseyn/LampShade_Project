@@ -1,8 +1,7 @@
 ﻿using _0_Framework.Domain;
 using System.Collections.Generic;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+
 
 namespace InventoryManagement.Domain.InventoryAgg
 {
@@ -22,7 +21,13 @@ namespace InventoryManagement.Domain.InventoryAgg
             InStock = false;
         }
 
-        private long CalculateCurrentCount()
+        public void Edit(long productId, double unitPrice)
+        {
+            ProductId = productId;
+            UnitPrice = unitPrice;
+        }
+
+        public long CalculateCurrentCount()
         {
             var plus = Operations.Where(x => x.Operation).Sum(x => x.Count);
             var minus = Operations.Where(x => !x.Operation).Sum(x => x.Count);

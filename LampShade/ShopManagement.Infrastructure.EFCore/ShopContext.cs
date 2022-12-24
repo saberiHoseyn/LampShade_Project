@@ -4,11 +4,7 @@ using ShopManagement.Domain.ProductPictureAgg;
 using ShopManagement.Domain.SlideAgg;
 using ShopManagement.Infrastructure.EFCore.Maping;
 using ShopManagement.SM.Domain.ShopManagment.Domain.ProductCategoryAgg;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+
 
 namespace ShopManagement.Infrastructure.EFCore
 {

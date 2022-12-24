@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Y+hUmJ7SkA4zNv959Jv0U3evxBfakxVU7Nr3kvwCj3WPe0Aph7IeecpkJetXGr9aEcNojSstIJKVCvGB8EaIFQ==",
+  "dgSpecHash": "/bFbpd8X37gspdEmwb8oBcjoOd8FR/pxPhnHcqo3oikbGfiOmZ26iqDGgYEekbnN4NB9bjEEujRRy9Nkcmw8NA==",
   "success": true,
-  "projectFilePath": "D:\\Hoseyn\\Asp.NetCore5(atriya)\\practices\\10.LampShade_Project\\Code\\LampShade\\DiscountManagement.Application\\DiscountManagement.Application.Contracts.csproj",
+  "projectFilePath": "D:\\Hoseyn\\Asp.NetCore5(atriya)\\practices\\10.LampShade_Project\\Code\\LampShade\\DiscountManagement.Application\\DiscountManagement.Application.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\samsung\\.nuget\\packages\\microsoft.entityframeworkcore\\5.0.17\\microsoft.entityframeworkcore.5.0.17.nupkg.sha512",
     "C:\\Users\\samsung\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\5.0.17\\microsoft.entityframeworkcore.abstractions.5.0.17.nupkg.sha512",

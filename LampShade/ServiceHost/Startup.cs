@@ -1,6 +1,7 @@
 using DiscountManagement.Application;
 using DiscountManagement.Application.Contracts.CustomerDiscount;
 using DiscountManagement.Configuration;
+using InventoryManagement.Configuration;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
@@ -24,7 +25,7 @@ namespace ServiceHost
             var connectionString = Configuration.GetConnectionString("LampeShadDb");
             ShopManagementBootstrapper.Configure(services, connectionString);
             DiscountManagementBootstrapper.Configure(services, connectionString);
-
+            InventoryManagementBootstrapper.Configure(services, connectionString);
             services.AddRazorPages();
         }
 
