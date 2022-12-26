@@ -3,9 +3,7 @@ using ShopManagement.Application.Contracts.ProductCategoryAgg;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+
 
 namespace ShopManagement.Application.Contracts.ProductAgg
 {
@@ -16,9 +14,6 @@ namespace ShopManagement.Application.Contracts.ProductAgg
         
         [Required(ErrorMessage = ValidationMessages.IsRequired)]
         public string Code { get; set; }
-
-        [Required(ErrorMessage = ValidationMessages.IsRequired)]
-        public double UnitPrice { get; set; }
 
         [Required(ErrorMessage = ValidationMessages.IsRequired)]
         public string ShortDescription { get; set; }

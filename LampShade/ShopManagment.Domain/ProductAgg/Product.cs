@@ -1,11 +1,8 @@
 ﻿using _0_Framework.Domain;
 using ShopManagement.Domain.ProductPictureAgg;
 using ShopManagement.SM.Domain.ShopManagment.Domain.ProductCategoryAgg;
-using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+
 
 namespace ShopManagement.Domain.ProductAgg
 {
@@ -13,8 +10,6 @@ namespace ShopManagement.Domain.ProductAgg
     {
         public string Name { get; private set; }
         public string Code { get; private set; }
-        public double UnitPrice { get; private set; }
-        public bool IsInStock { get; set; } = true;
         public string ShortDescription { get; private set; }
         public string Description { get; private set; }
         public string Picture { get; private set; }
@@ -59,16 +54,6 @@ namespace ShopManagement.Domain.ProductAgg
             Slug = slug;
             Keywords = keywords;
             MetaDescription = metaDescription;
-        }
-
-        public void InStock()
-        {
-            IsInStock = true;
-        }
-
-        public void NotInStock()
-        {
-            IsInStock = false;
         }
     }
 }

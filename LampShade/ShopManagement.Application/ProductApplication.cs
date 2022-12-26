@@ -1,12 +1,8 @@
 ﻿using _0_Framework.Application;
 using ShopManagement.Application.Contracts.ProductAgg;
 using ShopManagement.Domain.ProductAgg;
-using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Linq.Expressions;
-using System.Text;
-using System.Threading.Tasks;
+
 
 namespace ShopManagement.Application
 {
@@ -60,32 +56,6 @@ namespace ShopManagement.Application
         public List<ProductVeiwModel> GetProducts()
         {
             return productRepository.GetProducts();
-        }
-
-        public OperationResult IsStock(long id)
-        {
-            var opration = new OperationResult();
-
-            var product = productRepository.Get(id);
-            if (product == null)
-                return opration.Failed(ApplicationMessages.RecordNotFound);
-
-            product.InStock();
-            productRepository.SaveChanges();
-            return opration.Succedded();
-        }
-
-        public OperationResult NotInStock(long id)
-        {
-            var opration = new OperationResult();
-
-            var product = productRepository.Get(id);
-            if (product == null)
-                return opration.Failed(ApplicationMessages.RecordNotFound);
-
-            product.NotInStock();
-            productRepository.SaveChanges();
-            return opration.Succedded();
         }
 
         public List<ProductVeiwModel> Search(ProductSearchModel command)

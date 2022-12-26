@@ -1,7 +1,6 @@
 ﻿using _0_Framework.Application;
 using InventoryManagement.Application.Contracts.InventoryAgg;
 using InventoryManagement.Domain.InventoryAgg;
-using System;
 using System.Collections.Generic;
 
 
@@ -48,6 +47,11 @@ namespace InventoryManagement.Application
             return _inventoryRepository.GetDetails(id);
         }
 
+        public List<InventoryOperationViewModel> GetOperationLog(long inventoryId)
+        {
+            return _inventoryRepository.GetOperationLog(inventoryId);
+        }
+
         public OperationResult Increase(IncreaseInventory command)
         {
             var operation = new OperationResult();
@@ -90,7 +94,7 @@ namespace InventoryManagement.Application
 
         public List<InventoryViewModel> Search(InventorySearchModel command)
         {
-            throw new NotImplementedException();
+            return _inventoryRepository.Search(command);
         }
     }
 }

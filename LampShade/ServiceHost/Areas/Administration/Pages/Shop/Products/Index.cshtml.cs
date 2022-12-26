@@ -5,6 +5,7 @@ using Microsoft.AspNetCore.Mvc.Rendering;
 using ShopManagement.Application.Contracts.ProductAgg;
 using ShopManagement.Application.Contracts.ProductCategoryAgg;
 
+
 namespace ServiceHost.Areas.Administration.Pages.Shop.Products
 {
     public class IndexModel : PageModel
@@ -57,26 +58,6 @@ namespace ServiceHost.Areas.Administration.Pages.Shop.Products
         {
             var result = productApplication.Edit(command);
             return new JsonResult(result);
-        }
-
-        public IActionResult OnGetIsInStock(long id)
-        {
-            var result = productApplication.IsStock(id);
-            if (result.IsSuccedded)
-                return RedirectToPage("./Index");
-
-            Message = result.Message;
-            return RedirectToPage("./Index");
-        }
-
-        public IActionResult OnGetNotInStock(long id)
-        {
-            var result = productApplication.NotInStock(id);
-            if (result.IsSuccedded)
-                return RedirectToPage("./Index");
-
-            Message = result.Message;
-            return RedirectToPage("./Index");
         }
     }
 }
