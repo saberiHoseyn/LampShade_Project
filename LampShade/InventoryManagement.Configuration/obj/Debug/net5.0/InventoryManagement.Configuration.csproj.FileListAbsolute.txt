@@ -4,11 +4,13 @@ D:\Hoseyn\Asp.NetCore5(atriya)\practices\10.LampShade_Project\Code\LampShade\Inv
 D:\Hoseyn\Asp.NetCore5(atriya)\practices\10.LampShade_Project\Code\LampShade\InventoryManagement.Configuration\bin\Debug\net5.0\InventoryManagement.Configuration.pdb
 D:\Hoseyn\Asp.NetCore5(atriya)\practices\10.LampShade_Project\Code\LampShade\InventoryManagement.Configuration\bin\Debug\net5.0\0_Framework.dll
 D:\Hoseyn\Asp.NetCore5(atriya)\practices\10.LampShade_Project\Code\LampShade\InventoryManagement.Configuration\bin\Debug\net5.0\InventoryManagement.Application.Contracts.dll
+D:\Hoseyn\Asp.NetCore5(atriya)\practices\10.LampShade_Project\Code\LampShade\InventoryManagement.Configuration\bin\Debug\net5.0\InventoryManagement.Application.dll
 D:\Hoseyn\Asp.NetCore5(atriya)\practices\10.LampShade_Project\Code\LampShade\InventoryManagement.Configuration\bin\Debug\net5.0\InventoryManagement.Domain.dll
 D:\Hoseyn\Asp.NetCore5(atriya)\practices\10.LampShade_Project\Code\LampShade\InventoryManagement.Configuration\bin\Debug\net5.0\InventoryManagement.Infrastructure.EFCore.dll
 D:\Hoseyn\Asp.NetCore5(atriya)\practices\10.LampShade_Project\Code\LampShade\InventoryManagement.Configuration\bin\Debug\net5.0\ShopManagement.Application.Contracts.dll
 D:\Hoseyn\Asp.NetCore5(atriya)\practices\10.LampShade_Project\Code\LampShade\InventoryManagement.Configuration\bin\Debug\net5.0\ShopManagement.Domain.dll
 D:\Hoseyn\Asp.NetCore5(atriya)\practices\10.LampShade_Project\Code\LampShade\InventoryManagement.Configuration\bin\Debug\net5.0\ShopManagement.Infrastructure.EFCore.dll
+D:\Hoseyn\Asp.NetCore5(atriya)\practices\10.LampShade_Project\Code\LampShade\InventoryManagement.Configuration\bin\Debug\net5.0\InventoryManagement.Application.pdb
 D:\Hoseyn\Asp.NetCore5(atriya)\practices\10.LampShade_Project\Code\LampShade\InventoryManagement.Configuration\bin\Debug\net5.0\InventoryManagement.Domain.pdb
 D:\Hoseyn\Asp.NetCore5(atriya)\practices\10.LampShade_Project\Code\LampShade\InventoryManagement.Configuration\bin\Debug\net5.0\InventoryManagement.Infrastructure.EFCore.pdb
 D:\Hoseyn\Asp.NetCore5(atriya)\practices\10.LampShade_Project\Code\LampShade\InventoryManagement.Configuration\bin\Debug\net5.0\0_Framework.pdb
@@ -25,5 +27,3 @@ D:\Hoseyn\Asp.NetCore5(atriya)\practices\10.LampShade_Project\Code\LampShade\Inv
 D:\Hoseyn\Asp.NetCore5(atriya)\practices\10.LampShade_Project\Code\LampShade\InventoryManagement.Configuration\obj\Debug\net5.0\InventoryManagement.Configuration.dll
 D:\Hoseyn\Asp.NetCore5(atriya)\practices\10.LampShade_Project\Code\LampShade\InventoryManagement.Configuration\obj\Debug\net5.0\ref\InventoryManagement.Configuration.dll
 D:\Hoseyn\Asp.NetCore5(atriya)\practices\10.LampShade_Project\Code\LampShade\InventoryManagement.Configuration\obj\Debug\net5.0\InventoryManagement.Configuration.pdb
-D:\Hoseyn\Asp.NetCore5(atriya)\practices\10.LampShade_Project\Code\LampShade\InventoryManagement.Configuration\bin\Debug\net5.0\InventoryManagement.Application.dll
-D:\Hoseyn\Asp.NetCore5(atriya)\practices\10.LampShade_Project\Code\LampShade\InventoryManagement.Configuration\bin\Debug\net5.0\InventoryManagement.Application.pdb

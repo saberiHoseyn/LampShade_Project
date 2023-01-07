@@ -17,9 +17,9 @@ namespace ServiceHost.Areas.Administration.Pages.Shop.Products
         public SelectList ProductCategories;
 
         private readonly IProductApplication productApplication;
-        private readonly IProductPictureApplication productCategoryApplication;
+        private readonly IProductCategoryApplication productCategoryApplication;
 
-        public IndexModel(IProductPictureApplication productCategoryApplication, IProductApplication productApplication)
+        public IndexModel(IProductCategoryApplication productCategoryApplication, IProductApplication productApplication)
         {
             this.productCategoryApplication = productCategoryApplication;
             this.productApplication = productApplication;

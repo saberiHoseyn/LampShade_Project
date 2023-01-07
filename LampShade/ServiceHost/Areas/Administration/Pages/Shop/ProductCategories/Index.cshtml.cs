@@ -1,10 +1,8 @@
-using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using ShopManagement.Application.Contracts.ProductCategoryAgg;
+
 
 namespace ServiceHost.Areas.Administration.Pages.Shop.ProductCategories
 {
@@ -12,9 +10,9 @@ namespace ServiceHost.Areas.Administration.Pages.Shop.ProductCategories
     {
         public ProductCategorySearchModel SearchModel;
         public List<ProductCategoryViewModel> ProductCategories;
-        private readonly IProductPictureApplication productCategoryApplication;
+        private readonly IProductCategoryApplication productCategoryApplication;
 
-        public IndexModel(IProductPictureApplication productCategoryApplication)
+        public IndexModel(IProductCategoryApplication productCategoryApplication)
         {
             this.productCategoryApplication = productCategoryApplication;
         }
