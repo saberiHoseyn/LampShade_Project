@@ -36,15 +36,15 @@ namespace _01_LampShadeQuery.Query
                 PictureAlt = x.PictureAlt,
                 PictureTitle = x.PictureTitle,
                 Slug = x.Slug
-            }).ToList();
+            }).AsNoTracking().ToList();
         }
 
         public List<ProductCategoryQueryModel> GetProductCategoriesWithProducts()
         {
-            var inventory = _inventoryContext.Inventory.Select(x => new { x.ProductId, x.UnitPrice }).ToList();
+            var inventory = _inventoryContext.Inventory.Select(x => new { x.ProductId, x.UnitPrice }).AsNoTracking().ToList();
             var discounts = _discountContext.CustomerDiscounts
                                 .Where(x => x.StartDate < DateTime.Now && x.EndDate > DateTime.Now)
-                                .Select(x => new { x.ProductId, x.DiscountRate }).ToList();
+                                .Select(x => new { x.ProductId, x.DiscountRate }).AsNoTracking().ToList();
             var categories = _shopContext.ProductCategories
                  .Include(x => x.Products)
                  .ThenInclude(x => x.Category).Select(x => new ProductCategoryQueryModel
@@ -52,7 +52,7 @@ namespace _01_LampShadeQuery.Query
                      Id = x.Id,
                      Name = x.Name,
                      Products = MapProducts(x.Products)
-                 }).ToList();
+                 }).AsNoTracking().ToList();
             foreach (var category in categories)
             {
                 foreach (var product in category.Products)
@@ -99,10 +99,10 @@ namespace _01_LampShadeQuery.Query
 
         public ProductCategoryQueryModel GetProductCategoryWithProducstsBy(string slug)
         {
-            var inventory = _inventoryContext.Inventory.Select(x => new { x.ProductId, x.UnitPrice }).ToList();
+            var inventory = _inventoryContext.Inventory.Select(x => new { x.ProductId, x.UnitPrice }).AsNoTracking().ToList();
             var discounts = _discountContext.CustomerDiscounts
                                 .Where(x => x.StartDate < DateTime.Now && x.EndDate > DateTime.Now)
-                                .Select(x => new { x.ProductId, x.DiscountRate, x.EndDate }).ToList();
+                                .Select(x => new { x.ProductId, x.DiscountRate, x.EndDate }).AsNoTracking().ToList();
             var category = _shopContext.ProductCategories
                  .Include(x => x.Products)
                  .ThenInclude(x => x.Category).Select(x => new ProductCategoryQueryModel
