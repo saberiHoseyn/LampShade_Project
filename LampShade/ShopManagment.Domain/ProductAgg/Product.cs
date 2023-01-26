@@ -48,7 +48,7 @@ namespace ShopManagement.Domain.ProductAgg
             ShortDescription = shortDescription;
             Description = description;
 
-            if(!string.IsNullOrWhiteSpace(Picture))
+            if(!string.IsNullOrWhiteSpace(picture))
                 Picture = picture;
 
             PictureAlt = pictureAlt;
