@@ -12,16 +12,16 @@ namespace ShopManagement.Infrastructure.EFCore.Repository
 {
     public class SlideRepository : RepositoryBase<long, Slide>, ISlideRepository
     {
-        private readonly ShopContext context;
+        private readonly ShopContext _context;
 
         public SlideRepository(ShopContext shopContext) : base(shopContext)
         {
-            context = shopContext;
+            _context = shopContext;
         }
 
         public EditSlide GetDetails(long id)
         {
-            return context.Slides.Select(x => new EditSlide
+            return _context.Slides.Select(x => new EditSlide
             {
                 Id = x.Id,
                 PictureAlt = x.PictureAlt,
@@ -36,7 +36,7 @@ namespace ShopManagement.Infrastructure.EFCore.Repository
 
         public List<SlideViewModel> GetList()
         {
-            return context.Slides.Select(x => new SlideViewModel
+            return _context.Slides.Select(x => new SlideViewModel
             {
                 Id = x.Id,
                 Picture = x.Picture,

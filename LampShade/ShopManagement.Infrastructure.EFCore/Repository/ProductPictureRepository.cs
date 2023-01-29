@@ -3,26 +3,24 @@ using _0_Framework.Infrastructure;
 using Microsoft.EntityFrameworkCore;
 using ShopManagement.Application.Contracts.ProductPictureAgg;
 using ShopManagement.Domain.ProductPictureAgg;
-using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+
 
 namespace ShopManagement.Infrastructure.EFCore.Repository
 {
     public class ProductPictureRepository : RepositoryBase<long, ProductPicture>, IProductPictureRepository
     {
-        private readonly ShopContext context;
+        private readonly ShopContext _context;
 
         public ProductPictureRepository(ShopContext shopContext) : base(shopContext)
         {
-            context = shopContext;
+            _context = shopContext;
         }
 
         public EditProductPicture GetDetails(long id)
         {
-            return context.ProductPictures.Select(x => new EditProductPicture
+            return _context.ProductPictures.Select(x => new EditProductPicture
             {
                 Id = x.Id,
                 ProductId = x.ProductId,
@@ -33,12 +31,12 @@ namespace ShopManagement.Infrastructure.EFCore.Repository
 
         public ProductPicture GetWithProductAndCategory(long id)
         {
-            return context.ProductPictures.Include(x => x.Product).ThenInclude(x => x.Category).FirstOrDefault(x => x.Id == id);
+            return _context.ProductPictures.Include(x => x.Product).ThenInclude(x => x.Category).FirstOrDefault(x => x.Id == id);
         }
 
         public List<ProductPictureViewModel> Search(ProductPictureSearchModel searchModel)
         {
-            var query = context.ProductPictures.Include(x => x.Product).Select(x => new ProductPictureViewModel
+            var query = _context.ProductPictures.Include(x => x.Product).Select(x => new ProductPictureViewModel
             {
                 Id = x.Id,
                 Product = x.Product.Name,
