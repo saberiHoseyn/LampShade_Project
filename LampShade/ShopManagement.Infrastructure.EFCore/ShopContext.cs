@@ -3,7 +3,7 @@ using ShopManagement.Domain.CommentAgg;
 using ShopManagement.Domain.ProductAgg;
 using ShopManagement.Domain.ProductPictureAgg;
 using ShopManagement.Domain.SlideAgg;
-using ShopManagement.Infrastructure.EFCore.Maping;
+using ShopManagement.Infrastructure.EFCore.Mappings;
 using ShopManagement.SM.Domain.ShopManagment.Domain.ProductCategoryAgg;
 
 

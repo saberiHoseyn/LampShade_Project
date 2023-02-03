@@ -3,7 +3,7 @@ using Microsoft.EntityFrameworkCore.Metadata.Builders;
 using ShopManagement.Domain.CommentAgg;
 
 
-namespace ShopManagement.Infrastructure.EFCore.Maping
+namespace ShopManagement.Infrastructure.EFCore.Mappings
 {
     public class CommentMapping : IEntityTypeConfiguration<Comment>
     {

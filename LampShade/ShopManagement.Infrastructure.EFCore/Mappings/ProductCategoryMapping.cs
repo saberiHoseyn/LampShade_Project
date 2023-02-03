@@ -1,9 +1,8 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
 using ShopManagement.SM.Domain.ShopManagment.Domain.ProductCategoryAgg;
-using System;
 
-namespace ShopManagement.Infrastructure.EFCore.Maping
+namespace ShopManagement.Infrastructure.EFCore.Mappings
 {
     public class ProductCategoryMapping : IEntityTypeConfiguration<ProductCategory>
     {
