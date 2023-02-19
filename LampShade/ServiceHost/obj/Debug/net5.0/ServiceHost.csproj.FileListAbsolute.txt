@@ -236,3 +236,6 @@ D:\Hoseyn\Asp.NetCore5(atriya)\practices\10.LampShade_Project\Code\LampShade\Ser
 D:\Hoseyn\Asp.NetCore5(atriya)\practices\10.LampShade_Project\Code\LampShade\ServiceHost\obj\Debug\net5.0\Razor\Areas\Administration\Pages\Blog\ArticleCategories\Create.cshtml.g.cs
 D:\Hoseyn\Asp.NetCore5(atriya)\practices\10.LampShade_Project\Code\LampShade\ServiceHost\obj\Debug\net5.0\Razor\Areas\Administration\Pages\Blog\ArticleCategories\Edit.cshtml.g.cs
 D:\Hoseyn\Asp.NetCore5(atriya)\practices\10.LampShade_Project\Code\LampShade\ServiceHost\obj\Debug\net5.0\Razor\Areas\Administration\Pages\Blog\ArticleCategories\Index.cshtml.g.cs
+D:\Hoseyn\Asp.NetCore5(atriya)\practices\10.LampShade_Project\Code\LampShade\ServiceHost\obj\Debug\net5.0\Razor\Areas\Administration\Pages\Blog\Articles\Create.cshtml.g.cs
+D:\Hoseyn\Asp.NetCore5(atriya)\practices\10.LampShade_Project\Code\LampShade\ServiceHost\obj\Debug\net5.0\Razor\Areas\Administration\Pages\Blog\Articles\Edit.cshtml.g.cs
+D:\Hoseyn\Asp.NetCore5(atriya)\practices\10.LampShade_Project\Code\LampShade\ServiceHost\obj\Debug\net5.0\Razor\Areas\Administration\Pages\Blog\Articles\Index.cshtml.g.cs
