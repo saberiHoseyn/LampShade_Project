@@ -31,3 +31,9 @@ D:\Hoseyn\Asp.NetCore5(atriya)\practices\10.LampShade_Project\Code\LampShade\01_
 D:\Hoseyn\Asp.NetCore5(atriya)\practices\10.LampShade_Project\Code\LampShade\01_LampShadeQuery\obj\Debug\net5.0\01_LampShadeQuery.dll
 D:\Hoseyn\Asp.NetCore5(atriya)\practices\10.LampShade_Project\Code\LampShade\01_LampShadeQuery\obj\Debug\net5.0\ref\01_LampShadeQuery.dll
 D:\Hoseyn\Asp.NetCore5(atriya)\practices\10.LampShade_Project\Code\LampShade\01_LampShadeQuery\obj\Debug\net5.0\01_LampShadeQuery.pdb
+D:\Hoseyn\Asp.NetCore5(atriya)\practices\10.LampShade_Project\Code\LampShade\01_LampShadeQuery\bin\Debug\net5.0\BlogManagement.Application.Contracts.dll
+D:\Hoseyn\Asp.NetCore5(atriya)\practices\10.LampShade_Project\Code\LampShade\01_LampShadeQuery\bin\Debug\net5.0\BlogManagement.Domain.dll
+D:\Hoseyn\Asp.NetCore5(atriya)\practices\10.LampShade_Project\Code\LampShade\01_LampShadeQuery\bin\Debug\net5.0\BlogManagement.Infrastructure.EFCore.dll
+D:\Hoseyn\Asp.NetCore5(atriya)\practices\10.LampShade_Project\Code\LampShade\01_LampShadeQuery\bin\Debug\net5.0\BlogManagement.Infrastructure.EFCore.pdb
+D:\Hoseyn\Asp.NetCore5(atriya)\practices\10.LampShade_Project\Code\LampShade\01_LampShadeQuery\bin\Debug\net5.0\BlogManagement.Application.Contracts.pdb
+D:\Hoseyn\Asp.NetCore5(atriya)\practices\10.LampShade_Project\Code\LampShade\01_LampShadeQuery\bin\Debug\net5.0\BlogManagement.Domain.pdb

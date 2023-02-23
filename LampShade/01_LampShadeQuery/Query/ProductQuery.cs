@@ -133,7 +133,8 @@ namespace _01_LampShadeQuery.Query
                                 .Where(x => x.StartDate < DateTime.Now && x.EndDate > DateTime.Now)
                                 .Select(x => new { x.ProductId, x.DiscountRate, x.EndDate }).AsNoTracking().ToList();
             var query = _shopContext.Products
-                 .Include(x => x.Category).Select(p => new ProductQueryModel
+                 .Include(x => x.Category)
+                 .Select(p => new ProductQueryModel
                  {
                      Id = p.Id,
                      Category = p.Category.Name,
@@ -145,7 +146,8 @@ namespace _01_LampShadeQuery.Query
                      Slug = p.Slug,
                      ShortDescription = p.ShortDescription
                  }).AsNoTracking();
-            if (string.IsNullOrWhiteSpace(value))
+
+            if (!string.IsNullOrWhiteSpace(value))
                 query = query.Where(x => x.Name.Contains(value) || x.ShortDescription.Contains(value));
             var products = query.OrderByDescending(x => x.Id).ToList();
             foreach (var product in products)

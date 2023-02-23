@@ -28,6 +28,9 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
+              "D:\\Hoseyn\\Asp.NetCore5(atriya)\\practices\\10.LampShade_Project\\Code\\LampShade\\BlogManagement.Infrastructure.EFCore\\BlogManagement.Infrastructure.EFCore.csproj": {
+                "projectPath": "D:\\Hoseyn\\Asp.NetCore5(atriya)\\practices\\10.LampShade_Project\\Code\\LampShade\\BlogManagement.Infrastructure.EFCore\\BlogManagement.Infrastructure.EFCore.csproj"
+              },
               "D:\\Hoseyn\\Asp.NetCore5(atriya)\\practices\\10.LampShade_Project\\Code\\LampShade\\DiscountManagement.Infrastructure.EFCore\\DiscountManagement.Infrastructure.EFCore.csproj": {
                 "projectPath": "D:\\Hoseyn\\Asp.NetCore5(atriya)\\practices\\10.LampShade_Project\\Code\\LampShade\\DiscountManagement.Infrastructure.EFCore\\DiscountManagement.Infrastructure.EFCore.csproj"
               },

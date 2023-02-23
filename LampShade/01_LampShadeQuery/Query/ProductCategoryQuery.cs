@@ -116,7 +116,9 @@ namespace _01_LampShadeQuery.Query
                      Products = MapProducts(x.Products)
                  }).FirstOrDefault(x => x.Slug == slug);
 
-            foreach (var product in category.Products)
+            if(category.Products.Count > 0)
+            {
+                foreach (var product in category.Products)
             {
                 var productInventory = inventory.FirstOrDefault(x => x.ProductId == product.Id);
                 if (productInventory != null)
@@ -136,6 +138,7 @@ namespace _01_LampShadeQuery.Query
                     }
                 }
 
+            }
             }
             return category;
         }

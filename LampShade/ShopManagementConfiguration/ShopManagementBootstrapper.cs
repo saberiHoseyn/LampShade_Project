@@ -1,4 +1,6 @@
-﻿using _01_LampShadeQuery.Contracts.Product;
+﻿using _01_LampShadeQuery.Contracts.Article;
+using _01_LampShadeQuery.Contracts.ArticleCategory;
+using _01_LampShadeQuery.Contracts.Product;
 using _01_LampShadeQuery.Contracts.ProductCategory;
 using _01_LampShadeQuery.Contracts.Slide;
 using _01_LampShadeQuery.Query;
@@ -43,6 +45,9 @@ namespace ShopManagementConfiguration
 
             services.AddTransient<ICommentRepository, CommentRepository>();
             services.AddTransient<ICommentApplication, CommentApplication>();
+
+            services.AddTransient<IArticleQuery, ArticleQuery>();
+            services.AddTransient<IArticleCategoryQuery, ArticleCategoryQuery>();
 
             services.AddDbContext<ShopContext>(x => x.UseSqlServer(connectionString));
         }

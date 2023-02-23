@@ -3,6 +3,7 @@ using _0_Framework.Infrastructure;
 using BlogManagement.Application.Contracts.ArticleAgg;
 using BlogManagement.Domain.ArticleAgg;
 using Microsoft.EntityFrameworkCore;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 
@@ -31,7 +32,7 @@ namespace BlogManagement.Infrastructure.EFCore.Reppsitory
                 PictureAlt = x.PictureAlt,
                 PictureTitle = x.PictureTitle,
                 PublishDate = x.PublishDate.ToFarsi(),
-                ShortDescription = x.ShortDescription,
+                ShortDescription = x.ShortDescription.Substring(0, Math.Min(x.ShortDescription.Length, 50)),
                 Slug = x.Slug,
                 Title = x.Title
             }).FirstOrDefault(x => x.Id == id);

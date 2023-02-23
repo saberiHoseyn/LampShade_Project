@@ -1,7 +1,3 @@
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 using BlogManagement.Application.Contracts.ArticleAgg;
 using BlogManagement.Application.Contracts.ArticleCategoryAgg;
 using Microsoft.AspNetCore.Mvc;
