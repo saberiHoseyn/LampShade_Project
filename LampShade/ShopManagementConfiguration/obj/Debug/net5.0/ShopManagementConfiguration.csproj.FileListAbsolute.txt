@@ -41,3 +41,9 @@ D:\Hoseyn\Asp.NetCore5(atriya)\practices\10.LampShade_Project\Code\LampShade\Sho
 D:\Hoseyn\Asp.NetCore5(atriya)\practices\10.LampShade_Project\Code\LampShade\ShopManagementConfiguration\bin\Debug\net5.0\BlogManagement.Application.Contracts.pdb
 D:\Hoseyn\Asp.NetCore5(atriya)\practices\10.LampShade_Project\Code\LampShade\ShopManagementConfiguration\bin\Debug\net5.0\BlogManagement.Domain.pdb
 D:\Hoseyn\Asp.NetCore5(atriya)\practices\10.LampShade_Project\Code\LampShade\ShopManagementConfiguration\bin\Debug\net5.0\BlogManagement.Infrastructure.EFCore.pdb
+D:\Hoseyn\Asp.NetCore5(atriya)\practices\10.LampShade_Project\Code\LampShade\ShopManagementConfiguration\bin\Debug\net5.0\CommentManagement.Application.Contracts.dll
+D:\Hoseyn\Asp.NetCore5(atriya)\practices\10.LampShade_Project\Code\LampShade\ShopManagementConfiguration\bin\Debug\net5.0\CommentManagement.Domain.dll
+D:\Hoseyn\Asp.NetCore5(atriya)\practices\10.LampShade_Project\Code\LampShade\ShopManagementConfiguration\bin\Debug\net5.0\CommentManagement.Infrastructure.EFCore.dll
+D:\Hoseyn\Asp.NetCore5(atriya)\practices\10.LampShade_Project\Code\LampShade\ShopManagementConfiguration\bin\Debug\net5.0\CommentManagement.Application.Contracts.pdb
+D:\Hoseyn\Asp.NetCore5(atriya)\practices\10.LampShade_Project\Code\LampShade\ShopManagementConfiguration\bin\Debug\net5.0\CommentManagement.Domain.pdb
+D:\Hoseyn\Asp.NetCore5(atriya)\practices\10.LampShade_Project\Code\LampShade\ShopManagementConfiguration\bin\Debug\net5.0\CommentManagement.Infrastructure.EFCore.pdb

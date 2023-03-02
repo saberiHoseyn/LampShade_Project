@@ -1,15 +1,14 @@
 ﻿using _0_Framework.Application;
 using _01_LampShadeQuery.Contracts.Product;
+using CommentManagement.Infrastructure.EFCore;
 using DiscountManagement.Infrastructure.EFCore;
 using InventoryManagement.Infrastructure.EFCore;
 using Microsoft.EntityFrameworkCore;
-using ShopManagement.Domain.CommentAgg;
 using ShopManagement.Domain.ProductPictureAgg;
 using ShopManagement.Infrastructure.EFCore;
 using System;
 using System.Collections.Generic;
 using System.Linq;
-
 
 
 namespace _01_LampShadeQuery.Query
@@ -19,12 +18,14 @@ namespace _01_LampShadeQuery.Query
         private readonly ShopContext _shopContext;
         private readonly InventoryContext _inventoryContext;
         private readonly DiscountContext _discountContext;
+        private readonly CommentContext _commentContext;
 
-        public ProductQuery(ShopContext shopContext, InventoryContext inventoryContext, DiscountContext discountContext)
+        public ProductQuery(ShopContext shopContext, InventoryContext inventoryContext, DiscountContext discountContext, CommentContext commentContext)
         {
             _shopContext = shopContext;
             _inventoryContext = inventoryContext;
             _discountContext = discountContext;
+            _commentContext = commentContext;
         }
 
         public List<ProductQueryModel> GetLatestArrivals()
@@ -33,7 +34,9 @@ namespace _01_LampShadeQuery.Query
             var discounts = _discountContext.CustomerDiscounts
                                 .Where(x => x.StartDate < DateTime.Now && x.EndDate > DateTime.Now)
                                 .Select(x => new { x.ProductId, x.DiscountRate }).ToList();
-            var products = _shopContext.Products.Include(x => x.Category).Select(x => new ProductQueryModel
+            var products = _shopContext.Products
+                .Include(x => x.Category)
+                .Select(x => new ProductQueryModel
             {
                 Id = x.Id,
                 Category = x.Category.Name,
@@ -80,7 +83,6 @@ namespace _01_LampShadeQuery.Query
 
             var product = _shopContext.Products
                 .Include(x => x.Category)
-                .Include(x => x.Comments)
                 .Include(x => x.ProductPictures)
                 .Select(x => new ProductQueryModel
                 {
@@ -97,7 +99,6 @@ namespace _01_LampShadeQuery.Query
                     Keywords = x.Keywords,
                     MetaDescription = x.MetaDescription,
                     ShortDescription = x.ShortDescription,
-                    Comments = MapComments(x.Comments),
                     Pictures = MapProductPictures(x.ProductPictures)
                 }).AsNoTracking().FirstOrDefault(x => x.Slug == slug);
 
@@ -122,6 +123,19 @@ namespace _01_LampShadeQuery.Query
                     product.PriceWithDiscount = (price - discountAmount).ToMoney();
                 }
             }
+            product.Comments = _commentContext.Comments
+                .Where(x => !x.IsCanceled)
+                .Where(x => x.IsConfirmed)
+                .Where(x => x.Type == CommentType.Product)
+                .Where(x => x.OwnerRecordId == product.Id)
+                .Select(x => new CommentQueryModel
+                {
+                    Id = x.Id,
+                    Message = x.Message,
+                    Name = x.Name,
+                    CreationDate = x.CreationDate.ToFarsi()
+                }).OrderByDescending(x => x.Id).ToList();
+
             return product;
         }
 
@@ -186,19 +200,6 @@ namespace _01_LampShadeQuery.Query
                 ProductId = x.ProductId
             }).ToList();
         }
-
-        private static List<CommentQueryModel> MapComments(List<Comment> comments)
-        {
-            var x = comments
-                .Where(x => !x.IsCanceled)
-                .Where(x => x.IsConfirmed)
-                .Select(x => new CommentQueryModel
-                {
-                    Id = x.Id,
-                    Message = x.Message,
-                    Name = x.Name
-                }).OrderByDescending(x => x.Id).ToList();
-            return x;
-        }
     }
+
 }
